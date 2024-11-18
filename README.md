@@ -26,4 +26,4 @@ During each iteration, it compares its predictions for the next character in a n
 ### Generating Names:
 
 Once trained, the network can be used to generate new names by starting with a random character and predicting the next one based on its internal knowledge.
-It continues this process, predicting the next character based on the previous ones, until it generates a complete name that ends with a newline character ("\n").
+It continues this process, predicting the next character based on the previous ones.

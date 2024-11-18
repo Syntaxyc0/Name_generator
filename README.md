@@ -9,7 +9,7 @@ Here's a simplified breakdown of the process:
 
 ### Data Preprocessing:
 
-Loads the Pokémon name data from a text file.
+Loads the name data from a text file.
 Converts all names to lowercase characters.
 Creates a dictionary to map each unique character to a unique index.
 Represents each name as a sequence of these indices.
@@ -20,7 +20,7 @@ The network consists of multiple layers that process the sequence of character i
 Each layer learns the relationships between characters and predicts the probability of the next character in the sequence.
 Training:
 
-The network is trained by iterating through the Pokémon name data multiple times.
+The network is trained by iterating through the name data multiple times.
 During each iteration, it compares its predictions for the next character in a name with the actual character, and adjusts its internal weights to minimize the error.
 
 ### Generating Names:

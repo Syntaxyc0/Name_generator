@@ -5,7 +5,6 @@ This Python project implements a Recurrent Neural Network (RNN) from scratch onl
 ## How it works:
 The code implements a specific type of RNN called a Long Short-Term Memory (LSTM) network.LSTMs are powerful for sequence prediction tasks like name generation.
 
-Here's a simplified breakdown of the process:
 
 ### Data Preprocessing:
 
